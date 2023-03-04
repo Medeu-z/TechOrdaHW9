@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@500;700;900&family=Plus+Jakarta+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --color-primary: #094B72;
+    --color-secondary: #F2F7FF;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-text-title: #302454;
+
+    --max-width: 1110px;
+    --min-width: 300px;
+}
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+html,body{
+    scroll-behavior: smooth;
+}
+.wrapper{
+    width: var(--max-width);
+    margin: 0 auto;
+}
+[class$='-section-title']{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+button{
+    background-color: #094B72;
+    color: #F9F8F9;
+    border-radius: 8px;
+}
+@media screen and (max-width: 1140px){
+    .wrapper{
+        width: 90%;
+    }
+}

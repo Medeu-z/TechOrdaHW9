@@ -1,0 +1,100 @@
+#terms{
+    background: #F2F7FF;
+    padding: 126px 0;
+}
+.terms{
+    display: flex;
+}
+.terms-text{
+    width: 418px;
+    margin: 48px 53px 0 0;
+}
+.terms-section-title{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.323077px;
+    color: #2D2F30;
+}
+.terms-section-text{
+    width: 384px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+    color: #8B8C8C;
+}
+.terms-containers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.terms-container{
+    padding: 24px;
+    width: 256px;
+    height: 253px;
+    background: #FCFCFC;
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.terms-container-title{
+    width: 181px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #363940;
+    margin-bottom: 10px;
+}
+.terms-container-body{
+    width: 210px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #8B8C8C;
+}
+@media screen and (max-width: 1140px){
+    .terms{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .terms-containers{
+        margin-top: 50px;
+        width: 545px;
+    }
+}
+@media screen and (max-width: 600px){
+    #terms{
+        padding: 5% 0;
+    }
+    .terms{
+        padding: 0 14px;
+    }
+    .terms-text{
+        width: 80%;
+    }
+    .terms-section-title{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .terms-section-text{
+        width: 90%;
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .terms-containers{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+    }
+}

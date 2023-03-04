@@ -1,0 +1,24 @@
+<section id="testimonial">
+    <div class="wrapper testimonial">
+        <h4 class="testimonial-section-title">
+            Clients Testimonial
+        </h4>
+        <div class="slider">
+            <div class="testimonial-section-containers">
+                <div class="testimonial-section-container" *ngFor="let card of cards">
+                    <div class="testimonial-section-container-card">
+                        <div class="testimonial-section-container-card-title">{{ card.title }}</div>
+                        <div class="testimonial-section-container-card-body">{{ card.body }}</div>
+                    </div>
+                    <div class="testimonial-section-container-user">
+                        <img src="{{ card.url }}" alt="" srcset="">
+                        <div>
+                            <div class="testimonial-section-container-user-name">{{ card.author }}</div>
+                            <div class="testimonial-section-container-user-body">{{ card.job }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

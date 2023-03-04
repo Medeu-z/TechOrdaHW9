@@ -1,0 +1,19 @@
+<header class="wrapper">
+    <img class="logo" src="assets/icons/logo-dark.svg" alt="Lawliet"/>
+    <div>
+        <nav [className]="isActive ? 'active' : ''">
+            <div class="menu-back">
+                <ul class="menu">
+                    <li><a href="#contacts">CONTACT</a></li>
+                    <li><a href="#testimonial">TESTIMONIALS</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#terms">TERMS</a></li>
+                </ul>
+            </div>
+            <div class="menu-bar" (click)="onClickHandler()">
+                <div class="bar"></div>
+            </div>
+            <img class="search" src="assets/icons/search.svg" alt="search">
+        </nav>
+    </div>
+</header>

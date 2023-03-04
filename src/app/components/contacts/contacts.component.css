@@ -1,0 +1,33 @@
+#contacts{
+    padding: 36px 0 40px;
+}
+.contacts{
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+}
+.contacts-card{
+    margin-right: 31px;
+}
+.contacts-section-text{
+    font-weight: 400;
+    font-size: 24px;
+    color: #4F4F4F;
+    margin: 20px 0;
+}
+.contacts-card button{
+    padding: 14px 36px;
+    width: 219px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 22px;
+} 
+.contacts-card button>img{
+    margin-right: 17.5px;
+}
+@media screen and (max-width: 1140px){
+    .contacts>img{display: none;}
+}

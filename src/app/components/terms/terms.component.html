@@ -1,0 +1,19 @@
+<section id="terms">
+    <div class="wrapper terms">
+        <div class="terms-text">
+            <h4 class="terms-section-title">
+                Why do we help with legalization?
+            </h4>
+            <div class="terms-section-text">
+                We are here for UMKM in Indonesia to carry out the legalization process, which is sometimes complicated.
+            </div>
+        </div>
+        <div class="terms-containers">
+            <div class="terms-container" *ngFor="let term of terms">
+                <img src="{{ term.url }}" alt="">
+                <div class="terms-container-title">{{ term.title }}</div>
+                <div class="terms-container-body">{{ term.body }}</div>
+            </div>
+        </div>
+    </div>
+</section>

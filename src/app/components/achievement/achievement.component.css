@@ -1,0 +1,53 @@
+#achievement{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+.achievement{
+    padding: 55px 0;
+    text-align: center;
+}
+.achievement-section-title{
+    font-weight: 900;
+}
+.achievement-text{
+    margin-bottom: 48px;
+}
+.achievement-section-text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+.achievement-section-containers{
+    display: flex;
+    justify-content: center;
+}
+.achievement-section-container{
+    text-align: center;
+    width: 285px;
+}
+.achievement-section-container:nth-child(2){
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.container-title{
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+@media screen and (max-width: 600px){
+    .achievement-section-containers{
+        align-items: center;
+        flex-direction: column;
+    }
+    .achievement-section-container{
+        padding: 5px 0;
+        width: 280px;
+    }
+    .achievement-section-container:nth-child(2){
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+}
